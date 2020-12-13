@@ -1,0 +1,29 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/GuideTheBall/.kivy/logs/kivy_20-12-09_38.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_ffpyplayer ignored)
+[WARNING] Deprecated property "<AliasProperty name=filename>" of object "<kivy.core.audio.audio_sdl2.SoundSDL2 object at 0x8f911f28>" was accessed, it will be removed in a future version
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/main.py", line 71, in <module>
+[WARNING] stderr:     class MainActivity(App):
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/main.py", line 75, in MainActivity
+[WARNING] stderr:     _highscore = db.getHighscoreForLevel(current_level)
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/dbOps.py", line 10, in getHighscoreForLevel
+[WARNING] stderr:     scores = cur.execute('SELECT l? from level_scores',[level])
+[WARNING] stderr: sqlite3.OperationalError: near "?": syntax error

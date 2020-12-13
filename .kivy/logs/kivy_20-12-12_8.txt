@@ -1,0 +1,40 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/GuideTheBall_dist/.kivy/logs/kivy_20-12-12_8.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] Audio: Providers: audio_sdl2 (audio_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall_dist/main.py", line 46, in <module>
+[WARNING] stderr:     loadfile(os.path.join("kvfiles", "_header.kv"))
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall_dist/main.py", line 44, in loadfile
+[WARNING] stderr:     Builder.load_string(decryptKV(open(file).read()))
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 368, in load_string
+[WARNING] stderr:     parser = Parser(content=string, filename=fn)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/parser.py", line 401, in __init__
+[WARNING] stderr:     self.parse(content)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/parser.py", line 510, in parse
+[WARNING] stderr:     objects, remaining_lines = self.parse_level(0, lines)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/parser.py", line 583, in parse_level
+[WARNING] stderr:     raise ParserException(self, ln,
+[WARNING] stderr: kivy.lang.parser.ParserException: Parser: File "<inline>", line 1:
+[WARNING] stderr: ...
+[WARNING] stderr: >>    1:wn>lkjs@ W>hajm g>uv.:jsb.m>hajm.W>hajm
+[WARNING] stderr:       2:wn>lkjs@ db@_:jijs_csjl_eby g>uv.t@>if.db@_:jijs_csjl_eby
+[WARNING] stderr:       3:wn>lkjs@ jf jf
+[WARNING] stderr: ...
+[WARNING] stderr: Invalid data after declaration

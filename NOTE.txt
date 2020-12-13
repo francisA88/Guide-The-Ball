@@ -1,0 +1,2 @@
+NOTE:::
+	Run build.py first then run run.py to start the game

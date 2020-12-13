@@ -1,0 +1,109 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/GuideTheBall/.kivy/logs/kivy_20-12-09_42.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_ffpyplayer ignored)
+[WARNING] Deprecated property "<AliasProperty name=filename>" of object "<kivy.core.audio.audio_sdl2.SoundSDL2 object at 0x8f59bf88>" was accessed, it will be removed in a future version
+[INFO   ] GL: NPOT texture support is available
+[WARNING] GL: Unpack subimage support is not available
+[INFO   ] Text: Provider: sdl2
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 249, in create_handler
+[WARNING] stderr:     return eval(value, idmap), bound_list
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11, in <module>
+[WARNING] stderr:     disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr: ValueError: invalid literal for int() with base 10: ''
+[WARNING] stderr: 
+[WARNING] stderr: During handling of the above exception, another exception occurred:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 690, in _apply_rule
+[WARNING] stderr:     value, bound = create_handler(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 252, in create_handler
+[WARNING] stderr:     raise BuilderException(rule.ctx, rule.line,
+[WARNING] stderr: kivy.lang.builder.BuilderException: Parser: File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11:
+[WARNING] stderr: ...
+[WARNING] stderr:       9:	width: 80
+[WARNING] stderr:      10:	minimum_width: 80
+[WARNING] stderr: >>   11:	disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr:      12:	on_release:
+[WARNING] stderr:      13:		#app.game.clear_any_obstacles()
+[WARNING] stderr: ...
+[WARNING] stderr: ValueError: invalid literal for int() with base 10: ''
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 249, in create_handler
+[WARNING] stderr:     return eval(value, idmap), bound_list
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11, in <module>
+[WARNING] stderr:     disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr: 
+[WARNING] stderr: 
+[WARNING] stderr: During handling of the above exception, another exception occurred:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/main.py", line 157, in <module>
+[WARNING] stderr:     MainActivity().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/app.py", line 829, in run
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/main.py", line 88, in build
+[WARNING] stderr:     self.mm = MainManager()
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/main.py", line 36, in __init__
+[WARNING] stderr:     self.add_widget(Factory.LevelsPanel())
+[WARNING] stderr:   File "relativelayout.py", line 265, in kivy.uix.relativelayout.RelativeLayout.__init__
+[WARNING] stderr:   File "floatlayout.py", line 65, in kivy.uix.floatlayout.FloatLayout.__init__
+[WARNING] stderr:   File "layout.py", line 76, in kivy.uix.layout.Layout.__init__
+[WARNING] stderr:   File "widget.py", line 359, in kivy.uix.widget.Widget.__init__
+[WARNING] stderr:   File "widget.py", line 467, in kivy.uix.widget.Widget.apply_class_lang_rules
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 536, in apply
+[WARNING] stderr:     self._apply_rule(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 658, in _apply_rule
+[WARNING] stderr:     self._apply_rule(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 658, in _apply_rule
+[WARNING] stderr:     self._apply_rule(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 656, in _apply_rule
+[WARNING] stderr:     child.apply_class_lang_rules(
+[WARNING] stderr:   File "widget.py", line 467, in kivy.uix.widget.Widget.apply_class_lang_rules
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 536, in apply
+[WARNING] stderr:     self._apply_rule(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 705, in _apply_rule
+[WARNING] stderr:     raise BuilderException(rule.ctx, rule.line,
+[WARNING] stderr: kivy.lang.builder.BuilderException: Parser: File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11:
+[WARNING] stderr: ...
+[WARNING] stderr:       9:	width: 80
+[WARNING] stderr:      10:	minimum_width: 80
+[WARNING] stderr: >>   11:	disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr:      12:	on_release:
+[WARNING] stderr:      13:		#app.game.clear_any_obstacles()
+[WARNING] stderr: ...
+[WARNING] stderr: BuilderException: Parser: File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11:
+[WARNING] stderr: ...
+[WARNING] stderr:       9:	width: 80
+[WARNING] stderr:      10:	minimum_width: 80
+[WARNING] stderr: >>   11:	disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr:      12:	on_release:
+[WARNING] stderr:      13:		#app.game.clear_any_obstacles()
+[WARNING] stderr: ...
+[WARNING] stderr: ValueError: invalid literal for int() with base 10: ''
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 249, in create_handler
+[WARNING] stderr:     return eval(value, idmap), bound_list
+[WARNING] stderr:   File "/storage/emulated/0/projects/GuideTheBall/kvfiles/levelselection.kv", line 11, in <module>
+[WARNING] stderr:     disabled: app.db.getLastUnlockedLevel()<int(self.text)
+[WARNING] stderr: 
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 690, in _apply_rule
+[WARNING] stderr:     value, bound = create_handler(
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 252, in create_handler
+[WARNING] stderr:     raise BuilderException(rule.ctx, rule.line,
+[WARNING] stderr: 
